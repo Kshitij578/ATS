@@ -1,0 +1,23 @@
+img {
+  height: 300px;
+  width: 250px;
+  border-radius: 10%;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h2 {
+  background-color: aquamarine;
+  color: crimson;
+  text-align: center;
+  display: inline;
+}
+
+h3 {
+  background-color: azure;
+  color: orangered;
+  text-align: center;
+  display: inline;
+}

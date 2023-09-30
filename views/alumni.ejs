@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumni</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>This is our Alumni <%= data.userId %></h1>
+    <% for(let image of data.images) { %>
+    <img src="<%= image.img %>" alt="some img" />
+    <% } %> <br> <br>
+    <h2><%= data.firstName %> <%= data.lastName %></h2> <br><br>
+    <h3>Mob No : <%= data.phoneNumber %></h3><br><br>
+    <h3>Email : <%= data.emailAddress %></h3><br><br>
+    <h3>Company : <%= data.company %></h3><br> <br>
+    <h3>College : <%= data.college %></h3>
+  </body>
+</html>
